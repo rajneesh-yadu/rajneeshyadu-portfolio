@@ -1,16 +1,19 @@
 export default function First() {
   return (
-    <section id='home'>
-      <div className='flex flex-col justify-center xl:justify-center items-center h-screen rounded-br-full bg-gradient-to-tl from-indigo-700 via-indigo-800 to-indigo-900'>
+    <section id='intro'>
+      <div className='flex flex-col justify-center xl:justify-center items-center h-screen rounded-br-full bg-gradient-to-tl from-canvas1-light via-canvas1-medium to-canvas1-dark'>
         <div>
-          <div className='text-gray-400 text-3xl font-bold ml-6  xl:text-6xl bg-clip-text text-transparent bg-gradient-to-b  from-pink-800 via-pink-800 to-pink-800'>
-            Hi, I am <span className='underline'>Rajneesh</span>
+          <div className='text-gray-400 text-6xl  ml-6  xl:text-6xl bg-clip-text text-transparent bg-gradient-to-b  from-primary1-light via-primary1-medium to-primary1-dark'>
+            Hi, I am{' '}
+            <span className='text-secondary1-light animate-pulse font-extrabold text-6xl'>
+              Rajneesh
+            </span>
             {/* <span className='text-gray-500'>from </span>
             <span className='bg-clip-text text-transparent bg-gradient-to-t from-green-500 via-white to-red-500'>
               India
             </span> */}
           </div>
-          <div className='text-gray-400 font-bold ml-6 xl:text-3xl bg-clip-text text-transparent bg-gradient-to-t from-indigo-300 via-indigo-300 to-indigo-300'>
+          <div className='text-gray-400 font-thin  ml-6 text-4xl xl:text-3xl bg-clip-text text-transparent bg-gradient-to-t from-primary1-light via-primary1-medium to-primary1-dark'>
             A Passionate Web developer
           </div>
         </div>

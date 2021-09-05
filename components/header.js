@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 function header() {
   const [activePage, setActivePage] = useState(null)
   const [showMenu, setShowMenu] = useState(false)
-  const pages = ['Profile', 'Projects', 'Skills']
+  const pages = ['Intro', 'Projects', 'Skills', 'Experience', 'Contact'] // write the page names in uppercase
   let sections
   let observer
   let servicePage
@@ -38,10 +38,10 @@ function header() {
 
   if (typeof window === 'object') {
     sections = document.querySelectorAll('section')
-    servicePage = document.getElementById('services')
+    servicePage = document.getElementById('projects')
     observer = new IntersectionObserver(navCheck, options)
     servicePageObserver = new IntersectionObserver(servicePageCheck, {
-      threshold: window.screen.width < 769 ? 0.2 : 0.7,
+      threshold: window.screen.width < 769 ? 0.4 : 0.7, // change the treshold here if page height is too large
     })
   }
 
@@ -54,7 +54,9 @@ function header() {
   return (
     <>
       <div className='backdrop-filter backdrop-blur bg-opacity-50 firefox:bg-opacity-90 z-10 flex justify-between items-center bg-gray-800 w-full text-gray-400 text-xl top-0 h-16 sticky'>
-        <div className='text-4xl text-indigo-600'>{'()=>{}'}</div>
+        <div className='text-xl bg-primary1-light text-secondary1-light'>
+          {'()=>{}'}
+        </div>
         {pages.map((item) =>
           activePage === item.toLocaleLowerCase() ? (
             <div

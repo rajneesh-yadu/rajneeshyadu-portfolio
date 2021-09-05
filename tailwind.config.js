@@ -19,13 +19,26 @@ module.exports = {
       red: colors.rose,
       yellow: colors.amber,
       pink: colors.pink,
-      blue: {
-        light: '#0066FF',
-        DEFAULT: '#1fb6ff',
-        dark: '#009eeb',
+      blue: colors.blue,
+      canvas1: {
+        light: '#262626',
+        medium: '#262626',
+        dark: '#262626',
       },
-      primary1: '#BB004B',
-      secondary1: '#0066FF',
+      secondary1: {
+        light: '#BB004B',
+        medium: '#BB004B',
+        dark: '#BB004B',
+        // dark: '#262626',
+        // dark: '#BB004B',
+      },
+      primary1: {
+        // light: '#0D9488',
+        lightText: '#134E4A',
+        light: '#0D9488',
+        medium: '#0D9488',
+        dark: '#0D9488',
+      },
     },
     screen: {
       '3xl': '1537px',

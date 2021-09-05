@@ -4,44 +4,26 @@ export default function Second() {
   const cardData = [
     {
       title: 'Moviestan',
-      price: 'JavaScript ReactJs MaterialUI AXIOS TmdbAPI',
-      image: '/javascript.svg',
+      price: ['JavaScript', 'ReactJs', 'MaterialUI', 'AXIOS', 'TmdbAPI'],
+      image: '/moviestan.jpg',
     },
     {
       title: 'Social Media Jr',
-      price:
-        'JavaScript ReactJs MaterialUI AXIOS NodeJs ExpressJs MongoDb Mongoose',
-      image: '/man-hair.svg',
+      price: ['JavaScript', 'ReactJs', 'MaterialUI', 'AXIOS', 'TmdbAPI'],
+      image: '/apod.jpg',
     },
     {
       title: 'NASA APOD',
-      price: 'JavaScript ReactJs MaterialUI AXIOS NasaAPI',
-      image: '/beard.svg',
-    },
-    {
-      title: 'Saloon Shop',
-      price: '40',
-      image: '/beard.png',
-    },
-    {
-      title: 'Face Massage',
-      price: '100',
-      image: '/massage-1.png',
-    },
-    {
-      title: 'Face Scrub+Massage',
-      price: '150',
-      image: '/massage.png',
-    },
-    {
-      title: 'Face Wax',
-      price: '180',
-      image: '/face-mask.png',
+      price: ['JavaScript', 'ReactJs', 'MaterialUI', 'AXIOS', 'TmdbAPI'],
+      image: '/saloon.jpg',
     },
   ]
 
   return (
-    <div id='services' className='border border-transparent  '>
+    <section id='projects' className='border border-transparent  '>
+      <div className='text-center text-secondary1-light text-3xl font-extrabold'>
+        Projects
+      </div>
       <div className='grid grid-cols-1 lg:grid-cols-2 justify-items-center place-content-center gap-5  lg:min-h-screen my-16 lg:my-8'>
         {cardData.map((card) => (
           <Card
@@ -52,6 +34,6 @@ export default function Second() {
           />
         ))}
       </div>
-    </div>
+    </section>
   )
 }
