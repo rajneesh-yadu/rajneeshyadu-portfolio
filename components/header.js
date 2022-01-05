@@ -54,9 +54,7 @@ function header() {
   return (
     <>
       <div className='backdrop-filter backdrop-blur bg-opacity-50 firefox:bg-opacity-90 z-10 flex justify-between items-center bg-gray-800 w-full text-gray-400 text-xl top-0 h-16 sticky'>
-        <div className='text-xl bg-primary1-light text-secondary1-light'>
-          {'()=>{}'}
-        </div>
+        <div className='text-xl  text-secondary1-light font-mono'>{''}</div>
         {pages.map((item) =>
           activePage === item.toLocaleLowerCase() ? (
             <div

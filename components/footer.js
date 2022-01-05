@@ -88,7 +88,7 @@ function Footer() {
             className='h-40 w-5/6 lg:w-2/6 text-gray-100 placeholder-gray-300 p-2 bg-primary1-light rounded-md'
             placeholder='Write message'
           ></input>
-          <button className='text-gray-300 p-2 bg-secondary1-light rounded-md'>
+          <button className='text-gray-300 p-2 bg-secondary1-light rounded-md mb-4 shadow-2xl'>
             Send Message
           </button>
         </div>
