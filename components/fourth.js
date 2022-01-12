@@ -12,10 +12,21 @@ export default function Third() {
       location: 'Pune, India',
       project: 'HSBC - eCare',
       description: [
-        'Involved in Frontend development, here we are migrating the Application from AngularJs to ReactJs.',
-        'Created CICD pipeline using jenkins.',
-        'Daily activities involved analysing stories, gathering information from BA, Scrum Master and QA writing code to complete the stories',
-        'Following development best practices, fixing linting issue, writing unit test cases, reviewing code, guiding new joiners.',
+        `eCare is an internal web application of HSBC, Which is used by HSBC call
+        center staff to fulfill customer requests.`,
+        `Features included - Fraud
+        reporting, Force log-off, password Reset and many more customer
+        related tasks.`,
+        `Role - Software Developer
+        Tasks included -
+        UI Development with ReactJs
+        API integration with UI,
+        Deployment using Jenkins Pipeline,
+        Source code Management using GIT and GITHUB,
+        Implementing business logic,
+        Testing,
+        Fixing bugs,
+        Linting and SONAR Fixes`,
       ],
     },
     {
@@ -31,7 +42,7 @@ export default function Third() {
         'I Created Automation framework to handle test case failure and to generates test result into word and PDF documents.',
         'As a experienced UiPath developer i guided team of 8-10 member to implement automation logic and helped them in troubleshooting critical issues',
         'Additional to regular task, i developed many utilities to automate manual task and helped in saving project costs.',
-        'Got Awards for recognition for innovation.',
+        'Got recognition for innovation.',
       ],
     },
     {

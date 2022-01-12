@@ -9,7 +9,7 @@ function header() {
   let servicePage
   let servicePageObserver
   const options = {
-    threshold: 0.7,
+    threshold: 0.7, //control threshold of experience page from here
   }
 
   const myfun = function (ele) {
@@ -41,7 +41,7 @@ function header() {
     servicePage = document.getElementById('projects')
     observer = new IntersectionObserver(navCheck, options)
     servicePageObserver = new IntersectionObserver(servicePageCheck, {
-      threshold: window.screen.width < 769 ? 0.4 : 0.7, // change the treshold here if page height is too large
+      threshold: window.screen.width < 769 ? 0.2 : 0.7, //control threshold of page other than experience page from here
     })
   }
 
