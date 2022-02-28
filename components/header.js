@@ -3,7 +3,8 @@ import React, { useState } from 'react'
 function header() {
   const [activePage, setActivePage] = useState(null)
   const [showMenu, setShowMenu] = useState(false)
-  const pages = ['Intro', 'Projects', 'Skills', 'Experience', 'Contact'] // write the page names in uppercase
+  const pages = ['Intro', 'Projects', 'Skills', 'Contact'] // write the page names in uppercase
+  // const pages = ['Intro', 'Projects', 'Skills', 'Experience', 'Contact'] // write the page names in uppercase
   let sections
   let observer
   let servicePage

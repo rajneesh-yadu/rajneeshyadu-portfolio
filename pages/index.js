@@ -5,7 +5,7 @@ import Footer from '../components/footer'
 import First from '../components/first'
 import Second from '../components/second'
 import Third from '../components/third'
-import Fourth from '../components/fourth'
+// import Fourth from '../components/fourth'
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
         <First />
         <Second />
         <Third />
-        <Fourth />
+        {/* <Fourth /> disabling the experience page*/}
         <Footer />
       </div>
     </>
