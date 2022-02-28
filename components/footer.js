@@ -11,7 +11,7 @@ function Footer() {
               RAJNEESH YADU
             </div>
             <div className='text-xl  text-gray-500 animate-pulse'>
-              Frontend (ReactJs) Developer
+              Full Stack Web Developer
             </div>
           </div>
           <a
