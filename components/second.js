@@ -9,10 +9,10 @@ export default function Second() {
       url: 'https://ry-moviestan.web.app/popular',
     },
     {
-      title: 'Astronomy Photo Of The Day - NASA',
+      title: 'Astronomy - Nasa Photo of the Day',
       price: ['JavaScript', 'ReactJs', 'Material UI'],
       image: '/apod.jpg',
-      url: 'https://ry-npod.web.app/',
+      url: 'https://ry-apod.vercel.app/',
     },
     {
       title: 'Saloon Shop',
